@@ -1,39 +1,337 @@
-<!doctype html>
+<!DOCTYPE html>
 <html lang="en">
-<head>
-  <meta charset="utf-8">
-  <title>CoronaVirus</title>
-  <base href="/">
-  <meta name="viewport" content="width=device-width, initial-scale=1">
-  <link rel="apple-touch-icon" sizes="57x57" href="/assets/ico/apple-icon-57x57.png">
-  <link rel="apple-touch-icon" sizes="60x60" href="/assets/ico/apple-icon-60x60.png">
-  <link rel="apple-touch-icon" sizes="72x72" href="/assets/ico/apple-icon-72x72.png">
-  <link rel="apple-touch-icon" sizes="76x76" href="/assets/ico/apple-icon-76x76.png">
-  <link rel="apple-touch-icon" sizes="114x114" href="/assets/ico/apple-icon-114x114.png">
-  <link rel="apple-touch-icon" sizes="120x120" href="/assets/ico/apple-icon-120x120.png">
-  <link rel="apple-touch-icon" sizes="144x144" href="/assets/ico/apple-icon-144x144.png">
-  <link rel="apple-touch-icon" sizes="152x152" href="/assets/ico/apple-icon-152x152.png">
-  <link rel="apple-touch-icon" sizes="180x180" href="/assets/ico/apple-icon-180x180.png">
-  <link rel="icon" type="image/png" sizes="192x192"  href="/assets/ico/android-icon-192x192.png">
-  <link rel="icon" type="image/png" sizes="32x32" href="/assets/ico/favicon-32x32.png">
-  <link rel="icon" type="image/png" sizes="96x96" href="/assets/ico/favicon-96x96.png">
-  <link rel="icon" type="image/png" sizes="16x16" href="/assets/ico/favicon-16x16.png">
-  <link rel="manifest" href="/assets/ico/manifest.json">
-  <meta name="msapplication-TileColor" content="#ffffff">
-  <meta name="msapplication-TileImage" content="/assets/ico/ms-icon-144x144.png">
-  <meta name="theme-color" content="#ffffff">
+  <head>
+    <meta charset="utf-8" />
+    <title>CoronaVirus</title>
+    <base href="/" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <link
+      rel="apple-touch-icon"
+      sizes="57x57"
+      href="Covid-19/assets/ico/apple-icon-57x57.png"
+    />
+    <link
+      rel="apple-touch-icon"
+      sizes="60x60"
+      href="Covid-19/assets/ico/apple-icon-60x60.png"
+    />
+    <link
+      rel="apple-touch-icon"
+      sizes="72x72"
+      href="Covid-19/assets/ico/apple-icon-72x72.png"
+    />
+    <link
+      rel="apple-touch-icon"
+      sizes="76x76"
+      href="Covid-19/assets/ico/apple-icon-76x76.png"
+    />
+    <link
+      rel="apple-touch-icon"
+      sizes="114x114"
+      href="Covid-19/assets/ico/apple-icon-114x114.png"
+    />
+    <link
+      rel="apple-touch-icon"
+      sizes="120x120"
+      href="Covid-19/assets/ico/apple-icon-120x120.png"
+    />
+    <link
+      rel="apple-touch-icon"
+      sizes="144x144"
+      href="Covid-19/assets/ico/apple-icon-144x144.png"
+    />
+    <link
+      rel="apple-touch-icon"
+      sizes="152x152"
+      href="Covid-19/assets/ico/apple-icon-152x152.png"
+    />
+    <link
+      rel="apple-touch-icon"
+      sizes="180x180"
+      href="Covid-19/assets/ico/apple-icon-180x180.png"
+    />
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="192x192"
+      href="Covid-19/assets/ico/android-icon-192x192.png"
+    />
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="32x32"
+      href="Covid-19/assets/ico/favicon-32x32.png"
+    />
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="96x96"
+      href="Covid-19/assets/ico/favicon-96x96.png"
+    />
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="16x16"
+      href="Covid-19/assets/ico/favicon-16x16.png"
+    />
+    <link rel="manifest" href="Covid-19/assets/ico/manifest.json" />
+    <meta name="msapplication-TileColor" content="#ffffff" />
+    <meta
+      name="msapplication-TileImage"
+      content="Covid-19/assets/ico/ms-icon-144x144.png"
+    />
+    <meta name="theme-color" content="#ffffff" />
 
-  <!-- LOTUS -->
-   <!-- Vendors Style-->
- 
-  <!-- Style-->  
-  <link rel="stylesheet" href="assets/css/1.css">
- <!-- <script type="text/javascript" src="http://www.diresahuanuco.gob.pe/portal/librodiresa/_lib/prod/third/oem_fs/FusionCharts/js/maps/fusioncharts.northamerica.js"></script> -->
-  <!-- <script data-ad-client="ca-pub-5907911864960108" async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script> -->
-<link rel="stylesheet" href="styles.63ad76fef09d0f4a7747.css"></head>
-<body class="hold-transition light-skin sidebar-mini theme-primary fixed">
-  <app-root></app-root>
+    <!-- LOTUS -->
+    <!-- Vendors Style-->
+
+    <!-- Style-->
+    <link rel="stylesheet" href="assets/css/1.css" />
+    <!-- <script type="text/javascript" src="Covid-19/http://www.diresahuanuco.gob.pe/portal/librodiresa/_lib/prod/third/oem_fs/FusionCharts/js/maps/fusioncharts.northamerica.js"></script> -->
+    <!-- <script data-ad-client="ca-pub-5907911864960108" async src="Covid-19/https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script> -->
+  <link rel="stylesheet" href="styles.63ad76fef09d0f4a7747.css"></head>
+  <body
+    class="hold-transition light-skin sidebar-mini theme-primary fixed"
+    onload="loaders()"
+  >
+    <app-root></app-root>
+
+    <style type="text/css">
+      @import url("https://fonts.googleapis.com/css?family=Roboto+Mono&display=swap");
 
 
-<script src="runtime-es2015.c5fa8325f89fc516600b.js" type="module"></script><script src="runtime-es5.c5fa8325f89fc516600b.js" nomodule defer></script><script src="polyfills-es5.3e8196928d184a6e5319.js" nomodule defer></script><script src="polyfills-es2015.5b10b8fd823b6392f1fd.js" type="module"></script><script src="main-es2015.047fd5b8208211fd3cda.js" type="module"></script><script src="main-es5.047fd5b8208211fd3cda.js" nomodule defer></script></body>
+.contentss {
+  width: 300px;
+  height: 300px;
+  position: relative;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+      margin: auto;
+}
+.contentss .planet {
+  width: 65%;
+  height: 65%;
+  background-color: #546c8c;
+  border-radius: 100%;
+  position: absolute;
+  display: flex;
+  align-items: center;
+  transform-origin: center center;
+  box-shadow: inset 2px -10px 0px rgba(0, 0, 0, 0.1);
+  animation: planet 5s ease infinite alternate;
+  /* planet ring */
+  /* to cover the back of the ring */
+  /* planet spots */
+}
+@keyframes planet {
+  0% {
+    transform: rotate(10deg);
+  }
+  100% {
+    transform: rotate(-10deg);
+  }
+}
+.contentss .planet .ring {
+  position: absolute;
+  width: 300px;
+  height: 300px;
+  border-radius: 100%;
+  background-color: #bacbd9;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  transform-origin: 33% center;
+  box-shadow: 2px -10px 0px rgba(0, 0, 0, 0.1), inset -5px -10px 0px rgba(0, 0, 0, 0.1);
+  animation: ring 3s ease infinite;
+  /* small ball */
+  /* inner ring */
+}
+@keyframes ring {
+  0% {
+    transform: rotateX(110deg) rotateZ(0deg) translate(-50px, 5px);
+  }
+  100% {
+    transform: rotateX(110deg) rotateZ(360deg) translate(-50px, 5px);
+  }
+}
+.contentss .planet .ring:before {
+  content: "";
+  position: absolute;
+  width: 10px;
+  height: 30px;
+  border-radius: 100%;
+  background-color: #7ea1bf;
+  z-index: 2;
+  left: calc(0px - 5px);
+  box-shadow: inset -3px 3px 0px rgba(0, 0, 0, 0.2);
+}
+.contentss .planet .ring:after {
+  content: "";
+  position: absolute;
+  width: 240px;
+  height: 240px;
+  border-radius: 100%;
+  background-color: #7ea1bf;
+  box-shadow: inset 2px -10px 0px rgba(0, 0, 0, 0.1);
+}
+.contentss .planet .cover-ring {
+  position: absolute;
+  width: 100%;
+  height: 50%;
+  border-bottom-left-radius: 80%;
+  border-bottom-right-radius: 80%;
+  border-top-left-radius: 100px;
+  border-top-right-radius: 100px;
+  transform: translate(0px, -17px);
+  background-color: #546c8c;
+  z-index: 2;
+  box-shadow: inset 0px -2px 0px rgba(0, 0, 0, 0.1);
+}
+.contentss .planet .spots {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: absolute;
+  z-index: 2;
+}
+.contentss .planet .spots span {
+  width: 30px;
+  height: 30px;
+  background-color: #3c4359;
+  position: absolute;
+  border-radius: 100%;
+  box-shadow: inset -2px 3px 0px rgba(0, 0, 0, 0.3);
+  animation: dots 5s ease infinite alternate;
+}
+@keyframes dots {
+  0% {
+    box-shadow: inset -3px 3px 0px rgba(0, 0, 0, 0.3);
+  }
+  100% {
+    box-shadow: inset 3px 3px 0px rgba(0, 0, 0, 0.3);
+  }
+}
+.contentss .planet .spots span:nth-child(1) {
+  top: 20px;
+  right: 50px;
+}
+.contentss .planet .spots span:nth-child(2) {
+  top: 40px;
+  left: 50px;
+  width: 15px;
+  height: 15px;
+}
+.contentss .planet .spots span:nth-child(3) {
+  top: 80px;
+  left: 20px;
+  width: 25px;
+  height: 25px;
+}
+.contentss .planet .spots span:nth-child(4) {
+  top: 80px;
+  left: 90px;
+  width: 40px;
+  height: 40px;
+}
+.contentss .planet .spots span:nth-child(5) {
+  top: 160px;
+  left: 70px;
+  width: 15px;
+  height: 15px;
+}
+.contentss .planet .spots span:nth-child(6) {
+  top: 165px;
+  left: 125px;
+  width: 10px;
+  height: 10px;
+}
+.contentss .planet .spots span:nth-child(7) {
+  top: 90px;
+  left: 150px;
+  width: 15px;
+  height: 15px;
+}
+.contentss p {
+  color: #bacbd9;
+  font-size: 14px;
+  z-index: 2;
+  position: absolute;
+  bottom: -20px;
+  font-family: "Roboto Mono", monospace;
+  animation: text 4s ease infinite;
+  width: 100px;
+  text-align: center;
+}
+@keyframes text {
+  0% {
+    transform: translateX(-30px);
+    letter-spacing: 0px;
+    color: #bacbd9;
+  }
+  25% {
+    letter-spacing: 3px;
+    color: #7ea1bf;
+  }
+  50% {
+    transform: translateX(30px);
+    letter-spacing: 0px;
+    color: #bacbd9;
+  }
+  75% {
+    letter-spacing: 3px;
+    color: #7ea1bf;
+  }
+  100% {
+    transform: translateX(-30px);
+    letter-spacing: 0px;
+    color: #bacbd9;
+  }
+}
+
+
+      .loadding {
+        position: absolute;
+        height: 100vh;
+        width: 100vw;
+        display: flex;
+        align-items: center;
+        background: white;
+        z-index: 35;
+        top: 0px;
+      }
+
+      .loadding > svg {
+        margin: auto;
+      }
+    </style>
+    <div class="loadding" id="loaders">
+      <div class="contentss">
+        <div class="planet">
+          <div class="ring"></div>
+          <div class="cover-ring"></div>
+          <div class="spots">
+            <span></span>
+            <span></span>
+            <span></span>
+            <span></span>
+            <span></span>
+            <span></span>
+            <span></span>
+          </div>
+        </div>
+        <p>Preparando graficas</p>
+      </div>
+    </div>
+
+    <script type="text/javascript">
+      function loaders() {
+        setTimeout(() => {
+          document.getElementById("loaders").style.display = "none";
+        }, 5000);
+      }
+    </script>
+  <script src="Covid-19/runtime-es2015.c5fa8325f89fc516600b.js" type="module"></script><script src="Covid-19/runtime-es5.c5fa8325f89fc516600b.js" nomodule defer></script><script src="Covid-19/polyfills-es5.3e8196928d184a6e5319.js" nomodule defer></script><script src="Covid-19/polyfills-es2015.5b10b8fd823b6392f1fd.js" type="module"></script><script src="Covid-19/main-es2015.db197c90d02324eeb2d1.js" type="module"></script><script src="Covid-19/main-es5.db197c90d02324eeb2d1.js" nomodule defer></script></body>
 </html>
